@@ -16,7 +16,7 @@ class DataIngestionConfig:
 
 class DataIngestion:
     def __init__(self):
-        self.data_ingestion_config=DataIngestion()
+        self.data_ingestion_config=DataIngestionConfig()
         self.utils=MainUtils()
 
     def export_collection_as_dataframe(self,collection_name,db_name):
