@@ -2,7 +2,7 @@ import os
 
 
 AWS_S3_BUCKET_NAME = "wafer-fault"
-MONGO_DATABASE_NAME = "pwskills"
+MONGO_DATABASE_NAME = "ml_project"
 MONGO_COLLECTION_NAME = "waferfault"
 
 
